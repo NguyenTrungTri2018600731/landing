@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>EShopper - Bootstrap Shop Template</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="Free HTML Templates" name="keywords">
+    <meta content="Free HTML Templates" name="description">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="tri.css">
+
+</head>
+
+<body>
+    <!-- Navbar Start -->
+    <div class="container-fluid m-auto" style="max-width: 1200px;">
+        <div class="row border-top px-xl-5">
+            <div class="col-lg-12">
+                <nav class="navbar navbar-expand-lg bg-light navbar-light py-3 py-lg-0 px-0">
+                    <div class="d-flex">
+                        <button type="button" class="navbar-toggler" data-toggle="collapse"
+                            data-target="#navbarCollapse">
+                            <!-- <span class="navbar-toggler-icon"></span> -->
+                            <img class="pt-1" src="img/3gach.png" alt="">
+                        </button>
+                        <a href="" class="text-decoration-none d-block d-lg-none">
+                            <img id="logo" src="img/logo448x152.png" alt="">
+                        </a>
+                    </div>
+
+                    <a href="" class="text-decoration-none d-block d-lg-none">
+                        <img src="img/clock.png" alt="">
+                    </a>
+                    <a href="" class="text-decoration-none d-block d-lg-none">
+                        <img src="img/mobi_trang_home copy (2).png" alt=""></a>
+
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto py-0" id="disnav">
+                            <a href="#" class="nav-item nav-link"><img src="img/logo448x152.png" alt=""></a>
+                            <a href="#" class="nav-item nav-link active" id="telephone"><img src="img/clock.png"
+                                    alt="">&ensp;<span id="hotline">Hotline:<strong id="sdt">1800 6947</strong>
+                                </span></a>
+
+                        </div>
+                        <div class="navbar-nav ml-auto py-0">
+                            <div class="modal fade" id="modalRegisterForm" tabindex="-1" role="dialog"
+                                aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header text-center" style="background-color: #22a399;">
+                                            <h4 class="modal-title w-100 font-weight-bold" style="color: white;">Đăng
+                                                nhập</h4>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body mx-3">
+                                            <div class="md-form">
+                                                <label data-error="wrong" data-success="right" for="orangeForm-name">Họ
+                                                    và tên</label>
+                                            </div>
+                                            <input type="text" id="orangeForm-name" class="form-control validate mb-4">
+                                            <div class="md-form">
+                                                <label data-error="wrong" data-success="right" for="orangeForm-pass">Mật
+                                                    khẩu</label>
+                                                <input type="password" id="orangeForm-pass"
+                                                    class="form-control validate mb-4">
+                                            </div>
+                                            <div class="md-form d-flex justify-content-between">
+                                                <label class="checkbox-inline pull-left" data-success="right"><input
+                                                        type="checkbox">Nhớ mật khẩu</label>
+                                                <a href="#" class="pull-right text-muted"
+                                                    data-success="pull-left"><small style="color: #22a399;">Quên mật
+                                                        khẩu</small></a>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer d-flex justify-content-center">
+                                            <button class="btn"
+                                                style="background-color: #22a399; color: white; border-radius: 10px;">Đăng
+                                                nhập</button>
+                                        </div>
+
+                                        <div class="modal-header " style="margin: 0 25px; background-color: #e8f6f5;">
+                                            <div class="md-form">
+                                                <label data-error="wrong" data-success="right"
+                                                    for="orangeForm-pass">Hoặc</label>
+                                                <div class="form-group social-btn d-flex text-center justify-content-between"
+                                                    style="margin: 0 auto;">
+                                                    <a href="#" class="btn p-1" style="background-color: #3b5998; border-radius: 3xp;"><i
+                                                            class="fa-brands fa-facebook-square pt-1 pr-2"
+                                                            style="color: white;"></i><span style="color: white;">Đăng
+                                                            nhập
+                                                            Facebook</span></a>&ensp;
+                                                    <a href="#" class="btn p-1" style="background-color: #e64e3f; border-radius: 3xp;"><i
+                                                            class="fa-brands fa-google pt-1 pr-2"
+                                                            style="color: white;"></i><span style="color: white;">Đăng
+                                                            nhập
+                                                            Google</span></a>
+
+                                                </div>
+                                                <label data-error="wrong" data-success="right"><span
+                                                    style="color: #e64e3f; font-style: italic; text-decoration-line: underline;">Lưu ý:</span></label>
+                                            <label for="form-group">Nếu bạn không thể đăng nhập thông tin qua tài
+                                                khoản Facebook hoặc Google hãy liên hệ Hotline 024.7300.7989 để giúp
+                                                bạn chuyển sang tài khỏan trên trang</label>
+                                            </div>
+
+                                        </div>
+                                        <div class="modal-header " style="margin: 0 15px; ">
+                                            <div class="md-form" style="margin: 0 15px;">
+                                                <label for="form-group">Chưa có tài khoản <b>Tuyensinh247.com?</b></label>
+                                                <a href="#" class="pull-right text-muted"
+                                                    data-success="pull-left"><small style="color: #22a399;">Đăng kí ngay</small></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="btnN text-center">
+                                <a href="" class="btn btn-default btn-rounded" data-toggle="modal"
+                                    data-target="#modalRegisterForm"><span>Đăng nhập</span></a>
+                            </div>&emsp;
+                        </div>
+                        <div class="text-center">
+                            <!-- Button HTML (to Trigger Modal) -->
+                            <a href="#myModal" class="btn" data-toggle="modal" id="btnK"><span>Đăng
+                                    kí</span></a>
+                        </div>
+
+                        <!-- Modal HTML -->
+                        <div id="myModal" class="modal fade">
+                            <div class="modal-dialog modal-login">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h4 class="modal-title" style="color: #22a399;">Đăng ký</h4>
+                                        <button type="button" class="close" data-dismiss="modal"
+                                            aria-hidden="true">&times;</button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <form action="/examples/actions/confirmation.php" method="post">
+                                            <div class="form-group">
+                                                <label data-error="wrong" data-success="right" for="orangeForm-pass">Họ
+                                                    và tên
+                                                </label>
+                                                <input type="text" class="form-control" name="username" placeholder=""
+                                                    required="required">
+                                            </div>
+                                            <div class="form-group">
+                                                <label data-error="wrong" data-success="right" for="orangeForm-pass">Số
+                                                    điện thoại
+                                                </label>
+                                                <input type="phone" class="form-control" name="phone" placeholder=""
+                                                    required="required">
+                                            </div>
+                                            <div class="form-group">
+                                                <label data-error="wrong" data-success="right"
+                                                    for="orangeForm-pass">Email
+                                                </label>
+                                                <input type="Email" class="form-control" name="Email" placeholder=""
+                                                    required="required">
+                                            </div>
+                                            <div class="form-group">
+                                                <button type="submit"
+                                                    class="btn btn-primary btn-lg btn-block login-btn">Đăng ký</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <!-- Navbar End -->
+    <div class="wrapperBanner">
+        <img class="bannerPc" src="img/bannerPC.png" alt="">
+        <img class="bannerMobile" src="img/bannerMobile.png" alt="">
+    </div>
+    <!-- Featured Start -->
+    <div class="container-fluid pt-2" style="max-width: 1200px;">
+        <div class="text d-flex text-center">
+            <img class="imgOX px-1" src="img/text1.png" alt="">
+            <p class="textrp">Các bước tham gia</p>
+            <img class="imgOX px-1" src="img/text2.png" alt="">
+        </div>
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-12 pb-1">
+                <div class="step d-flex flex-column mb-4">
+                    <img class="dauCham" src="img/cham.png" alt="">
+                    <span class="txtStep" style="font-weight: 700;">Bước 1</span>
+                    <p>Chia sẻ sự kiện lên facebook cá nhân và kèm hastag #tuyensinh247;#cohoangxuan</p>
+                </div>
+            </div>
+            <div class="cha col-lg-4 col-md-6 col-sm-12 pb-1">
+                <div class="step d-flex flex-column mb-4">
+                    <img class="dauCham" src="img/cham.png" alt="">
+                    <span class="txtStep" style="font-weight: 700;">Bước 2</span>
+                    <p>Tham gia thi bằng cách Đăng nhập hoặc Đăng kí thông tin (Họ và tên;Số điện thoại và Email)
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 col-sm-12 pb-1">
+                <div class="step d-flex flex-column mb-4">
+                    <img class="dauCham" src="img/cham.png" alt="">
+                    <span class="txtStep" style="font-weight: 700;">Bước 3</span>
+                    <p>Vào thi</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Featured End -->
+    <div class="allbutton">
+        <div class="container d-flex" id="btnall">
+            <div class="begin col-lg-4 col-md-6 col-sm-12 d-flex">
+                <img src="img/accc.png" alt="">
+                <p>250 học sinh đăng ký</p>
+            </div>
+
+            <div class="btn col-lg-4 col-md-6 col-sm-12">
+                <div id="share">
+                    <a href="#">
+                        <p>Chia sẻ</p>
+                    </a>
+                </div>
+                <div id="thamgia">
+                    <a href="#">
+                        <p>Tham gia thi</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Categories Start -->
+    <div class="container-fluid pt-2" >
+        <div class="tutorial" style="max-width: 1200px;">
+            <div class="text d-flex">
+                <img class="imgOX px-1" src="img/text1.png" alt="">
+                <p class="textrp">Hướng dẫn thi và xem kết quả</p>
+                <img class="imgOX px-1" src="img/text2.png" alt="">
+            </div>
+            <div class="join">
+                <div>
+                    <ul>
+                        <li>
+                            <div><img src="img/tich.png" alt=""></div>
+                            <div>
+                                <p><span>Bước 1:</span>Sau khi đăng ký thi , các em vào trang thi đúng giờ mở đề thi
+                                    để
+                                    làm bài.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div><img src="img/tich.png" alt=""></div>
+                            <div>
+                                <p><span>Bước 2:</span>Hoàn thành bài thi và nộp bài</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div><img src="img/tich.png" alt=""></div>
+                            <div>
+                                <p><span>Bước 3:</span>Xem kết quả và xếp hạng của mình khi đề thi kết thúc.Các em
+                                    có
+                                    thể tỉa đề thi và chia sẻ giấy chứng nhận của mình. </p>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="note">
+                                <p><strong style="color: red;">Lưu ý:</strong>Các em nên đăng nhập tài khoản trên
+                                    trang Tuyensinh247.com để
+                                    lưu lại đước kết quả các bài thi và đăng ký thi dễ dàng hơn ở các lần sau.</p>
+                            </div>
+                        </li>
+                        <li>
+                            <div><img src="img/tich.png" alt=""></div>
+                            <div>
+                                <p><span>Bước 4:</span>Quay lại trang xem bài livestream chữa đề của Thầy/Cô đúng
+                                    lịch
+                                    đã được thông báo.</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="img/over.png" alt="" max-width:395px width="100%">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Categories End -->
+
+
+    <!-- Offer Start -->
+    <div class="footer" style="background-color: #22a399;">
+        <div class="container">
+
+            <div class="textf">
+                <img class="imgOX px-2" src="img/text3.png" alt="">
+                <p class="textrp" style="color: white;">Thông tin đề thi</p>
+                <img class="imgOX px-2" src="img/text4.png" alt="">
+            </div>
+            <div class="tt">
+                <div class="imgfooter">
+                    <img src="img/imgfoodter.png" alt="" max-width:290px width="100%">
+                </div>
+
+                <div class="live">
+                    <ul>
+                        <li>
+                            <div><img src="img/imgf1.png" alt=""></div>
+                            <div>
+                                <p>Đề ôn tập GHK2 - Môn Anh 12- Đề số 1</p>
+                            </div>
+                        </li><br>
+                        <li>
+                            <div><img src="img/imgf2.png" alt=""></div>
+                            <div>
+                                <p>Thời gian thi: 20h đến 21h - Thứ 4 -ngày 2/2/2022</p>
+                            </div>
+                        </li><br>
+                        <li>
+                            <div><img src="img/imgf3.png" alt=""></div>
+                            <div>
+                                <p>Thời gian livestream:20h30 - Thứ 5 - ngày 3/2/2022</p>
+                            </div>
+                        </li><br>
+                        <li>
+                            <div><img src="img/imgf4.png" alt=""></div>
+                            <div>
+                                <p>Thời gian:60 phút - 50 câu</p>
+                            </div>
+                        </li><br>
+                        <li>
+                            <div><img src="img/imgf5.png" alt=""></div>
+                            <div>
+                                <p>Số học sinh đăng ký : 250 học sinh</p>
+                            </div>
+                        </li>
+                        <div id="last">
+                            <div class="cardtop">
+                                <p class="arrow_box ">Mục tiêu đề thi:</p>
+                                <img class="tamgiac" src="img/nhon.png" alt="">
+                            </div>
+                            <div class="textend">
+                                <div class="d-flex"><img id="circle" src="img/circle.png" alt="">&ensp;<p> Củng cố kiến thức Từ vựng,
+                                        Ngữ âm, Ngữ pháp unit 6-10 tiếng Anh 12 chương trình mới.
+                                    </p>
+                                </div>
+                                <div class="d-flex"><img id="circle" src="img/circle.png" alt="">&ensp;<p>Rèn luyện kỹ năng xử lý các
+                                        dạng bài tập trắc nghiệm & tự luận tiếng Anh.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="popall">
+            <div class="pop">
+                <div class="crimg">
+                    <img src="img/accend.png" alt="">
+                </div>
+                <div class="pt-2">
+                    <b>Bạn Đoàn Thu Trang</b>
+                    <p style="font-style: italic;">Đã Đăng kí tham gia thi 20:18 ngày 31/12/2022</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Offer End -->
+    </div>
+    <!-- Footer End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn back-to-top" style="background-color: #e64e3f;"><i class="fa fa-angle-double-up"
+            style="color: white;"></i></a>
+
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Contact Javascript File -->
+    <script src="mail/jqBootstrapValidation.min.js"></script>
+    <script src="mail/contact.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
